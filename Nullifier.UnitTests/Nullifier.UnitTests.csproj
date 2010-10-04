@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01A7E470-DBF4-4AEA-BDA0-9BAA4904B144}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Nullifier.UnitTests</RootNamespace>
+    <AssemblyName>Nullifier.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ReleaseVersion>1.0.0.0</ReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework, Version=2.4.6.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\NUnit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="When_exclude_root_property.cs" />
+    <Compile Include="FakeObject.cs" />
+    <Compile Include="When_exclude_nested_property.cs" />
+    <Compile Include="When_exclude_multilple_level_properties.cs" />
+    <Compile Include="When_include_root_property.cs" />
+    <Compile Include="When_include_nested_property.cs" />
+    <Compile Include="When_include_multiple_level_properties.cs" />
+    <Compile Include="When_exclude_root_property_and_nested_property.cs" />
+    <Compile Include="When_include_root_property_and_nested_property.cs" />
+    <Compile Include="When_include_nested_property_of_list_property.cs" />
+    <Compile Include="When_getting_values_from_NullerProperty.cs" />
+    <Compile Include="When_exclude_nested_property_of_list_property.cs" />
+    <Compile Include="When_build_nuller_instruction_from_json.cs" />
+    <Compile Include="When_exclude_nested_property_of_array.cs" />
+    <Compile Include="SanityCheck.cs" />
+    <Compile Include="When_exclude_nested_property_dot.cs" />
+    <Compile Include="When_using_the_ArrayChildrenFinder.cs" />
+    <Compile Include="When_include_nested_property_of_array.cs" />
+    <Compile Include="Test_Nuller_Configuration.cs" />
+    <Compile Include="BaseNullerTest.cs" />
+    <Compile Include="When_exclude_nested_public_field.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nullifier\Nullifier.csproj">
+      <Project>{6648A4AB-8AC3-4794-97B7-1D144D83F411}</Project>
+      <Name>Nullifier</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

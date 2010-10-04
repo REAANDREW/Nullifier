@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Nullifier/Nuller.cs" ctype="Workbench">
+    <Files>
+      <File FileName="Nullifier.UnitTests/SanityCheck.cs" Line="1" Column="1" />
+      <File FileName="Nullifier/Nuller.cs" Line="60" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Nullifier" expanded="True">
+            <Node name="Nuller.cs" selected="True" />
+          </Node>
+          <Node name="Nullifier.UnitTests" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="Nullifier.UnitTests" expanded="True">
+            <Node name="Nullifier" expanded="True">
+              <Node name="UnitTests" expanded="True">
+                <Node name="SanityCheck" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

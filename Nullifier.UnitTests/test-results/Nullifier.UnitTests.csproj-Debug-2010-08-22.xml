@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2010-08-22T10:25:13</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>38</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2010-08-22T11:05:11</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>37</TotalFailures>
+      <TotalSuccess>4</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="Nullifier">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2010-08-22T10:25:13</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>38</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2010-08-22T11:05:11</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>37</TotalFailures>
+          <TotalSuccess>4</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="UnitTests">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2010-08-22T10:25:13</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>38</TotalFailures>
+              <TotalSuccess>3</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2010-08-22T11:05:11</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>37</TotalFailures>
+              <TotalSuccess>4</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="SanityCheck">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T22:16:40</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T22:21:49</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>3</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T23:30:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>4</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Can_resolve_using_variance">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.Collections.Generic.KeyNotFoundException : The given key was not present in the dictionary.</Message>
+                      <StackTrace>  at System.Collections.Generic.Dictionary`2[System.Type,System.String].get_Item (System.Type key) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Can_resolve_using_variance () [0x0002a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:17 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:32</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.Collections.Generic.KeyNotFoundException : The given key was not present in the dictionary.</Message>
+                      <StackTrace>  at System.Collections.Generic.Dictionary`2[System.Type,System.String].get_Item (System.Type key) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Can_resolve_using_variance () [0x0002a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:17 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:29:00</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Can_traverse_type">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:06:22</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:07:22</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:09:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:10:47</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput>Can traverse type
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:23:23</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput>Can traverse type
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:33:06</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput>Can traverse type
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:33:58</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput>Can traverse type
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:36:43</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput>Can traverse type
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:42:11</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput>Can traverse type
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:42:36</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput>Can traverse type
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="Can_set_property_of_object_on_the_actual_object_which_also_resides_in_a_list">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T12:11:52</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput>Can traverse type
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="Nuller_can_return_the_type_passed_into_it_for_exclude">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T22:16:40</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T22:21:49</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:30:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentException : No finder founder for that type of object
+Parameter name: target</Message>
+                      <StackTrace>  at Nullifier.UnitTests.SanityCheck+Nuller.GetChildrenFinder (System.Object target) [0x0004a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:102 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Execute[SomeClass] (Nullifier.UnitTests.SomeClass target) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Exclude[SomeClass] (Nullifier.UnitTests.SomeClass target, Nullifier.NullerInstruction instruction) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Nuller_can_return_the_type_passed_into_it_for_exclude () [0x00011] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:29 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="Nuller_can_return_the_type_passed_into_it_for_include">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T22:16:40</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T22:21:49</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:30:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentException : No finder founder for that type of object
+Parameter name: target</Message>
+                      <StackTrace>  at Nullifier.UnitTests.SanityCheck+Nuller.GetChildrenFinder (System.Object target) [0x0004a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:102 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Execute[SomeClass] (Nullifier.UnitTests.SomeClass target) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Include[SomeClass] (Nullifier.UnitTests.SomeClass target, Nullifier.NullerInstruction instruction) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Nuller_can_return_the_type_passed_into_it_for_include () [0x00011] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:20 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="Nuller_exclude_takes_a_NullerInstruction">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T22:21:49</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:30:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentException : No finder founder for that type of object
+Parameter name: target</Message>
+                      <StackTrace>  at Nullifier.UnitTests.SanityCheck+Nuller.GetChildrenFinder (System.Object target) [0x0004a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:102 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Execute[SomeClass] (Nullifier.UnitTests.SomeClass target) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Exclude[SomeClass] (Nullifier.UnitTests.SomeClass target, Nullifier.NullerInstruction instruction) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Nuller_exclude_takes_a_NullerInstruction () [0x00011] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:39 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="Exclude_can_target_root_properties">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:30:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: null
+  But was:  "string1"
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Exclude_can_target_root_properties () [0x00027] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:47 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:32:29</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentException : No finder founder for that type of object
+Parameter name: target</Message>
+                      <StackTrace>  at Nullifier.UnitTests.SanityCheck+Nuller.GetChildrenFinder (System.Object target) [0x0004a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:106 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Execute[SomeClass] (Nullifier.UnitTests.SomeClass target) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Exclude[SomeClass] (Nullifier.UnitTests.SomeClass target, Nullifier.NullerInstruction instruction) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Exclude_can_target_root_properties () [0x0006a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Entering
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:33:10</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: null
+  But was:  "string1"
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Exclude_can_target_root_properties () [0x0006a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Entering
+Exiting
+3
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:34:24</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: null
+  But was:  "string1"
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Exclude_can_target_root_properties () [0x0006a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Entering
+FakeProp1
+FakeProp2
+FakeProp3
+3
+Exiting
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:41:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentException : method argument length mismatch</Message>
+                      <StackTrace>  at System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, Boolean throwOnBindFailure) [0x00000] 
+  at System.Delegate.CreateDelegate (System.Type type, System.Reflection.MethodInfo method, Boolean throwOnBindFailure) [0x00000] 
+  at System.Delegate.CreateDelegate (System.Type type, System.Reflection.MethodInfo method) [0x00000] 
+  at System.Reflection.MonoProperty.CreateGetterDelegate (System.Reflection.MethodInfo method) [0x00000] 
+  at System.Reflection.MonoProperty.GetValue (System.Object obj, System.Object[] index) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Execute[SomeClass] (Nullifier.UnitTests.SomeClass target) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Exclude[SomeClass] (Nullifier.UnitTests.SomeClass target, Nullifier.NullerInstruction instruction) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Exclude_can_target_root_properties () [0x0006a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Entering
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:41:58</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentException : method argument length mismatch</Message>
+                      <StackTrace>  at System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, Boolean throwOnBindFailure) [0x00000] 
+  at System.Delegate.CreateDelegate (System.Type type, System.Reflection.MethodInfo method, Boolean throwOnBindFailure) [0x00000] 
+  at System.Delegate.CreateDelegate (System.Type type, System.Reflection.MethodInfo method) [0x00000] 
+  at System.Reflection.MonoProperty.CreateGetterDelegate (System.Reflection.MethodInfo method) [0x00000] 
+  at System.Reflection.MonoProperty.GetValue (System.Object obj, System.Object[] index) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Execute[SomeClass] (Nullifier.UnitTests.SomeClass target) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Exclude[SomeClass] (Nullifier.UnitTests.SomeClass target, Nullifier.NullerInstruction instruction) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Exclude_can_target_root_properties () [0x0006a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Entering
+FakeProp1
+FakeProp2
+FakeProp3
+Chars
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:56:37</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentException : method argument length mismatch</Message>
+                      <StackTrace>  at System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, Boolean throwOnBindFailure) [0x00000] 
+  at System.Delegate.CreateDelegate (System.Type type, System.Reflection.MethodInfo method, Boolean throwOnBindFailure) [0x00000] 
+  at System.Delegate.CreateDelegate (System.Type type, System.Reflection.MethodInfo method) [0x00000] 
+  at System.Reflection.MonoProperty.CreateGetterDelegate (System.Reflection.MethodInfo method) [0x00000] 
+  at System.Reflection.MonoProperty.GetValue (System.Object obj, System.Object[] index) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Execute[SomeClass] (Nullifier.UnitTests.SomeClass target) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Exclude[SomeClass] (Nullifier.UnitTests.SomeClass target, Nullifier.NullerInstruction instruction) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Exclude_can_target_root_properties () [0x0006a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Entering
+PrimitiveChildrenFinder
+DefaultNullerChildrenFinder
+FakeProp1
+FakeProp2
+FakeProp3
+PrimitiveChildrenFinder
+DefaultNullerChildrenFinder
+Chars
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T23:58:21</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentException : method argument length mismatch</Message>
+                      <StackTrace>  at System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, Boolean throwOnBindFailure) [0x00000] 
+  at System.Delegate.CreateDelegate (System.Type type, System.Reflection.MethodInfo method, Boolean throwOnBindFailure) [0x00000] 
+  at System.Delegate.CreateDelegate (System.Type type, System.Reflection.MethodInfo method) [0x00000] 
+  at System.Reflection.MonoProperty.CreateGetterDelegate (System.Reflection.MethodInfo method) [0x00000] 
+  at System.Reflection.MonoProperty.GetValue (System.Object obj, System.Object[] index) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Execute[SomeClass] (Nullifier.UnitTests.SomeClass target) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck+Nuller.Exclude[SomeClass] (Nullifier.UnitTests.SomeClass target, Nullifier.NullerInstruction instruction) [0x00000] 
+  at Nullifier.UnitTests.SanityCheck.Exclude_can_target_root_properties () [0x0006a] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/SanityCheck.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Entering
+PrimitiveChildrenFinder
+Is SomeClass Primitive? False
+DefaultNullerChildrenFinder
+FakeProp1
+FakeProp2
+FakeProp3
+PrimitiveChildrenFinder
+Is String Primitive? False
+DefaultNullerChildrenFinder
+Chars
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_build_nuller_instruction_from_json">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_NullerInstruction_should_have_a_PropertyName_FakeProperty1">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_NullerInstruction_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_exclude_multilple_level_propert">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_FakeProperty1_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: null
+  But was:  &lt;Nullifier.UnitTests.FakeSecondObject&gt;
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject) [0x00000] 
+  at Nullifier.UnitTests.When_exclude_multilple_level_propert.Then_FakeProperty1_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: null
+  But was:  &lt;Nullifier.UnitTests.FakeSecondObject&gt;
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject) [0x00000] 
+  at Nullifier.UnitTests.When_exclude_multilple_level_propert.Then_FakeProperty1_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: null
+  But was:  &lt;Nullifier.UnitTests.FakeThirdObject&gt;
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject) [0x00000] 
+  at Nullifier.UnitTests.When_exclude_multilple_level_propert.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: null
+  But was:  &lt;Nullifier.UnitTests.FakeThirdObject&gt;
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject, System.String message, System.Object[] args) [0x00000] 
+  at NUnit.Framework.Assert.IsNull (System.Object anObject) [0x00000] 
+  at Nullifier.UnitTests.When_exclude_multilple_level_propert.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_exclude_nested_property">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_ChildObjects_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property.Then_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property.Then_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_name_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property.Then_FakeProperty1_name_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property.Then_FakeProperty1_name_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property.Then_FakeProperty2_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property.Then_FakeProperty2_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+FakeProperty1.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_exclude_nested_property_of_array">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>4</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>4</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_ChildObjects_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_array.Then_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeObjectsOfArray.FakeSecondObject.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_array.Then_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeObjectsOfArray.FakeSecondObject.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_every_name_value_of_each_FakeSecondProperty_object_in_array_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_array.Then_every_name_value_of_each_FakeSecondProperty_object_in_array_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeObjectsOfArray.FakeSecondObject.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_array.Then_every_name_value_of_each_FakeSecondProperty_object_in_array_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeObjectsOfArray.FakeSecondObject.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_array.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeObjectsOfArray.FakeSecondObject.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_array.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeObjectsOfArray.FakeSecondObject.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_array.Then_FakeProperty2_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeObjectsOfArray.FakeSecondObject.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_array.Then_FakeProperty2_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeObjectsOfArray.FakeSecondObject.Name
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_exclude_nested_property_of_list_property">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_every_ChildObjects_property_of_each_FakeObject_inside_ChildObjects_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_list_property.Then_every_ChildObjects_property_of_each_FakeObject_inside_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_exclude_nested_property_of_list_property.cs:54 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+ChildObjects.FakeObject.FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_list_property.Then_every_ChildObjects_property_of_each_FakeObject_inside_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_exclude_nested_property_of_list_property.cs:54 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+ChildObjects.FakeObject.FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_every_FakeProperty1_property_of_each_FakeObject_inside_ChildObjects_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_list_property.Then_every_FakeProperty1_property_of_each_FakeObject_inside_ChildObjects_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_exclude_nested_property_of_list_property.cs:40 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+ChildObjects.FakeObject.FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_list_property.Then_every_FakeProperty1_property_of_each_FakeObject_inside_ChildObjects_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_exclude_nested_property_of_list_property.cs:40 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+ChildObjects.FakeObject.FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_every_FakeProperty2_property_of_each_FakeObject_inside_ChildObjects_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_list_property.Then_every_FakeProperty2_property_of_each_FakeObject_inside_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_exclude_nested_property_of_list_property.cs:47 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+ChildObjects.FakeObject.FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_nested_property_of_list_property.Then_every_FakeProperty2_property_of_each_FakeObject_inside_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_exclude_nested_property_of_list_property.cs:47 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+ChildObjects.FakeObject.FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_exclude_root_property">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_ChildObjects_is_not_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property.Then_ChildObjects_is_not_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property.Then_ChildObjects_is_not_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_is_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property.Then_FakeProperty1_is_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property.Then_FakeProperty1_is_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_is_not_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property.Then_FakeProperty2_is_not_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property.Then_FakeProperty2_is_not_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>FakeProperty1
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_exclude_root_property_and_nested_property">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>4</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>4</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_ChildObjects_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property_and_nested_property.Then_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeProperty1.Name
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property_and_nested_property.Then_ChildObjects_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeProperty1.Name
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_Name_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property_and_nested_property.Then_FakeProperty1_Name_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeProperty1.Name
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property_and_nested_property.Then_FakeProperty1_Name_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeProperty1.Name
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property_and_nested_property.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeProperty1.Name
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property_and_nested_property.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeProperty1.Name
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property_and_nested_property.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeProperty1.Name
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_exclude_root_property_and_nested_property.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+FakeProperty1.Name
+FakeProperty2
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_getting_values_from_NullerProperty">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_calling_ToString_will_join_all_nested_properties_with_fullstop">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.22ms</Message>
+                      <ConsoleOutput>Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+FakeRoot.FakeProperty0.FakeProperty1.FakeProperty2.FakeProperty3.FakeProperty4.FakeProperty5.FakeProperty6.FakeProperty7.FakeProperty8.FakeProperty9
+FakeRoot.FakeProperty0.FakeProperty1.FakeProperty2.FakeProperty3.FakeProperty4.FakeProperty5.FakeProperty6.FakeProperty7.FakeProperty8.FakeProperty9
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput>Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+Not returning null
+FakeRoot.FakeProperty0.FakeProperty1.FakeProperty2.FakeProperty3.FakeProperty4.FakeProperty5.FakeProperty6.FakeProperty7.FakeProperty8.FakeProperty9
+FakeRoot.FakeProperty0.FakeProperty1.FakeProperty2.FakeProperty3.FakeProperty4.FakeProperty5.FakeProperty6.FakeProperty7.FakeProperty8.FakeProperty9
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_include_multiple_level_properties">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_ChildObjects_will_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_multiple_level_properties.Then_ChildObjects_will_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_multiple_level_properties.Then_ChildObjects_will_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_multiple_level_properties.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_multiple_level_properties.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_multiple_level_properties.Then_FakeProperty2_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_multiple_level_properties.Then_FakeProperty2_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_include_nested_property">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_ChildObjects_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property.Then_ChildObjects_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_nested_property.cs:40 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property.Then_ChildObjects_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_nested_property.cs:40 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_nested_property.cs:35 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_nested_property.cs:35 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_Name_of_FakeProperty1_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property.Then_Name_of_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_nested_property.cs:30 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property.Then_Name_of_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_nested_property.cs:30 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_include_nested_property_of_list_property">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>5</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>5</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_Every_ChildObjects_Property_In_Each_ChildObject_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_Every_ChildObjects_Property_In_Each_ChildObject_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_Every_ChildObjects_Property_In_Each_ChildObject_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_Every_FakeProperty1_Property_In_Each_ChildObject_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_Every_FakeProperty1_Property_In_Each_ChildObject_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_Every_FakeProperty1_Property_In_Each_ChildObject_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_Every_FakeProperty2_Property_In_Each_ChildObject_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_Every_FakeProperty2_Property_In_Each_ChildObject_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_Every_FakeProperty2_Property_In_Each_ChildObject_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_FakeProperty1_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_FakeProperty1_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_nested_property_of_list_property.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_include_root_property">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>3</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_ChildObjects_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property.Then_ChildObjects_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property.Then_ChildObjects_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property.Then_FakeProperty2_should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/AssemblyInfo.cs:1 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_include_root_property_and_nested_property">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T10:25:13</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>4</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2010-08-22T11:05:11</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>4</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Then_ChildObjects_Should_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property_and_nested_property.Then_ChildObjects_Should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_root_property_and_nested_property.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property_and_nested_property.Then_ChildObjects_Should_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_root_property_and_nested_property.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty1_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property_and_nested_property.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_root_property_and_nested_property.cs:41 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property_and_nested_property.Then_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_root_property_and_nested_property.cs:41 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_FakeProperty2_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property_and_nested_property.Then_FakeProperty2_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_root_property_and_nested_property.cs:36 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property_and_nested_property.Then_FakeProperty2_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_root_property_and_nested_property.cs:36 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="Then_Name_Of_FakeProperty1_should_not_be_null">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T10:25:13</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property_and_nested_property.Then_Name_Of_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_root_property_and_nested_property.cs:46 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2010-08-22T11:05:11</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Nullifier.UnitTests.When_include_root_property_and_nested_property.Then_Name_Of_FakeProperty1_should_not_be_null () [0x00000] in /home/andrew/Projects/Nullifier/Nullifier.UnitTests/When_include_root_property_and_nested_property.cs:46 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] </StackTrace>
+                      <ConsoleOutput>Not returning null
+Not returning null
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>
